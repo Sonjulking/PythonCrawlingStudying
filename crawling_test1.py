@@ -29,7 +29,9 @@ print(h3[2].text)
 print(h3[3].text)
 print(h3[4].text)
 print(h3[0].name)  # 태그의 이름
+print("★★★★★★★★★★★★")
 print(h3[0].attrs)  # 태그의 속성과 값
+print("★★★★★★★★★★★★")
 h3 = bs.select_one("h3")  # select_one 메서드는 인자로 입력한 요소중 가장 첫번째를 반환.
 print(h3)  # 리스트형으로 반환하지는 않음
 
